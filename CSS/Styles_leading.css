@@ -1,0 +1,80 @@
+body{
+    margin: 10px;
+	padding: 0px;
+	font-family: 'Glass Antiqua', cursive;
+	font-size: 15px;
+	line-height: 1.5em;
+	background: url(../Images/fondo.png);
+}
+.LiveTheMusic {
+	background: url(../Images/fondo-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	height: auto;
+	text-align: center;
+    padding: 15px 0px;
+}
+.LiveTheMusic p{
+    line-height: 100%
+}
+p::selection{
+    color: gold;
+    background: red;
+}
+.PlayList{
+    padding: 40px 0px;
+    overflow: hidden;
+}
+.contenedor_footer{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+.contenedor_caratulas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.caratulas{
+    padding: 2px;
+    overflow: hidden;
+    position: relative;
+}
+.caratulas>img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 99%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border: 1px solid #A7A7A7;
+}
+.information_details{
+    background: #262A2A;
+    border: 1px solid #A7A7A7;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.information_details summary {
+    cursor: pointer;
+    text-align: center;
+    background: #262A2A;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid #A7A7A7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.information_details label{
+    font-weight: bold;
+}
+.loading_images{
+    visibility: hidden;
+    display: none;
+}
