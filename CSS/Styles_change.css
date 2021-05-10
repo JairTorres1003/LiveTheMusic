@@ -27,8 +27,8 @@
     }
     
     .caratulas img{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         border: 1px solid #575454;
     }
     .information_details{
@@ -60,8 +60,8 @@
     }
     .caratulas img{
         border-radius: 50%;
-        width: 100%;
-        height: auto;
+        width: 300px;
+        height: 300px;
         object-fit: cover;
         display: block;
         border: 2px solid #000000;
