@@ -27,8 +27,8 @@
     }
     
     .caratulas img{
-        width: 100%;
-        height: auto;
+        width: 300px;
+        height: 300px;
         border: 1px solid #575454;
     }
     .information_details{
