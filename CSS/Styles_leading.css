@@ -48,8 +48,8 @@ p::selection{
 .caratulas>img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 99%;
-    height: auto;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     display: block;
     border: 1px solid #A7A7A7;
